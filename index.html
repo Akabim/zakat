@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayozakat</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between relative lg:py-1 py-3 px-4">
+          <div class="px-4 flex">
+            <!-- <a href="#home" class="font-bold text-lg text-primary block py-6">akabim.tech</a> -->
+            <img src="./dist/img/logo.png" width="170px" height="75px" class="mt-1 lg:scale-110" alt="" />
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="scale-75 lg:hidden block absolute right-4">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left rotate-45;"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+            <nav id="nav-menu" class="hidden absolute py-3 bg-white rounded-lg max-w-[250px] w-full lg:right-1/2 lg:top-1/2 right-4 top-14 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex justify-center">
+                <li class="group lg:text-center">
+                  <a href="#home" class="text-black lg:text-black py-2 px-8 font-semibold flex transition ease-in-out">Home</a>
+                </li>
+                <li class="group lg:text-center">
+                  <a href="#about" class="text-black lg:text-black py-2 px-8 font-semibold flex transition ease-in-out">About</a>
+                </li>
+                <li class="group lg:text-center">
+                  <a href="#project" class="text-black lg:text-black py-2 px-8 font-semibold flex transition ease-in-out">Project</a>
+                </li>
+                <li class="group lg:text-center">
+                  <a href="#contact" class="text-black lg:text-black py-2 px-8 font-semibold flex transition ease-in-out">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="home" class="w-full pt-32 pb-12 bg-white">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap">
+          <div class="self-center w-full px-8 lg:px-10 sm:w-1/2">
+            <h1 class="font-bold text-4xl lg:text-5xl w-full">
+              Membentuk Masa Depan, Dan Melayani Dunia.
+            </h1>
+            <h2 class="mt-10 text-gray-500  lg:w-[400px] mb-10">Lorem ipsum dolor sit amet consectetur. In senectus commodo morbi ornare tristique aliquam turpis sed. Vitae quis erat a nullam velit.</h2>
+            <a
+              href="https://api.whatsapp.com/send/?phone=6282139796381&text&type=phone_number&app_absent=0"
+              target="_blank"
+              class="text-base font-semibold text-white bg-[#018379] py-3 px-6 rounded-full"
+              >Selengkapnya
+            </a>
+          </div>
+          <div class="w-full self-end px-4 sm:w-1/2 order-first lg:order-last mb-10">
+            <div class="relative lg:right-0 lg:mt-0 lg:w-[500px] lg:h-[500px]">
+            <img src="./dist/img/home-img.png" alt="">
+            </div>
+          </div>
+      </div>
+    </section>
+    <section id="about" class="sm:grid sm:grid-cols-2 sm:items-center pt-32 pb-12 block">
+      <div class="lg:px-32 px-12">
+        <!-- <div class="z-0 w-96 h-96 bg-primary absolute rounded-full lg:blur-[300px] blur-[600px]"></div> -->
+        <img alt="ayozakat" src="./dist/img/hero-img-2.png" class="h-full w-full sm:self-start block z-10 relative rounded-lg lg:scale-125" />
+      </div>
+      <div class="p-8 md:p-12 lg:px-32 lg:py-24 relative z-10 items-center">
+        <div class="mx-auto max-w-xl text-center sm:text-start xm:w-1/2">
+          <h2 class="sm:text-2xl font-bold text-black lg:text-5xl text-2xl">Lorem ipsum dolor sit amet.</h2>
+
+          <p class="text-black/80 mt-4 block lg:pr-24 sm:text-sm">
+            Lorem ipsum dolor sit amet consectetur. In senectus commodo morbi ornare tristique aliquam turpis sed. Vitae quis erat a nullam velit.</p>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="sm:grid sm:grid-cols-2 sm:items-center pt-32 pb-12 block">
+      <div class="lg:px-32 px-12 order-first lg:order-last">
+        <img alt="ayozakat" src="./dist/img/hero-img-3.png" class="h-full w-full sm:self-start block z-10 relative rounded-lg lg:scale-125" />
+      </div>
+      <div class="p-8 md:p-12 lg:px-32 lg:py-24 relative z-10 items-center">
+        <div class="mx-auto max-w-xl text-center sm:text-start xm:w-1/2">
+          <h2 class="sm:text-2xl font-bold text-black lg:text-5xl text-2xl">Lorem ipsum dolor sit amet.</h2>
+
+          <p class="text-black/80 mt-4 block lg:pr-24 sm:text-sm">
+            Lorem ipsum dolor sit amet consectetur. In senectus commodo morbi ornare tristique aliquam turpis sed. Vitae quis erat a nullam velit.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
