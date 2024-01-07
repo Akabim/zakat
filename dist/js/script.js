@@ -1,10 +1,3 @@
-const gajiBulanan = document.getElementById("gaji-bulanan").value();
-const pendapatanLain = document.getElementById("pendapatan-lain").value();
-const hutangOrCicilan = document.getElementById("hutang-or-cicilan").value();
-
-const totalPendapatan = gajiBulanan + pendapatanLain - hutangOrCicilan;
-const nisab = totalPendapatan * 0.025;
-
 // navbar
 
 const hamburger = document.querySelector("#hamburger");
